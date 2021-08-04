@@ -1,0 +1,47 @@
+[
+  {
+    "objectID": 299843 ,
+    "title": "Self-Portrait Dedicated to Paul Gauguin" ,
+    "artist": "Vincent van Gogh" ,
+    "gender": "male" ,
+    "culture": "Dutch" ,
+    "date": 1888 ,
+    "primaryImage": "https://nrs.harvard.edu/urn-3:HUAM:DDC251942_dynmc" ,
+    "classification": "Painting" ,
+    "technique": null ,
+    "museumURL": "https://www.harvardartmuseums.org/collections/object/299843" ,
+    "filename": "299843.jpg" ,
+    "from": "Harvard Art Museum" ,
+    "wall_description": "The man (Vincent Van Gogh) has painted himself off center from the left, turned three-quarter view facing right, looking straight ahead. He’s fair skinned with close cropped auburn hair, short beard and moustache, closed lips, intense deep-set green eyes, and chiseled features. He wears a brown vest and jacket, white shirt underneath with a large brown button in the center, and no tie. The aqua green background color is subtly worked into the shadows of the skin tones and shirt. Van Gogh’s energetic brush strokes are rich with colors and textures and follow the surfaces of every shape in the painting."
+  } ,
+  {
+    "objectID": 436532 ,
+    "title": "Self-Portrait with a Straw Hat (obverse: The Potato Peeler)" ,
+    "artist": "Vincent van Gogh" ,
+    "gender": "male" ,
+    "culture": "Dutch" ,
+    "date": 1887 ,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg" ,
+    "classification": "Painting" ,
+    "technique": "Oil on canvas" ,
+    "museumURL": "https://www.metmuseum.org/art/collection/search/436532" ,
+    "filename": "DT1502_cropped2.jpg" ,
+    "from": "Metropolitan Museum of Art" ,
+    "wall_description": null
+  } ,
+  {
+    "objectID": 438722 ,
+    "title": "The Potato Peeler (reverse: Self-Portrait with a Straw Hat)" ,
+    "artist": "Vincent van Gogh" ,
+    "gender": "male" ,
+    "culture": "Dutch" ,
+    "date": 1885 ,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1503.jpg" ,
+    "classification": "Painting" ,
+    "technique": "Oil on canvas" ,
+    "museumURL": "https://www.metmuseum.org/art/collection/search/438722" ,
+    "filename": "DT1503.jpg" ,
+    "from": "Metropolitan Museum of Art" ,
+    "wall_description": null
+  }
+]
