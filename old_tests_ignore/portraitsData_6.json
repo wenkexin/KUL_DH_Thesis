@@ -1,0 +1,74 @@
+[
+  {
+    "objectNumber": "BK-15116",
+    "title": "Self-portrait",
+    "artistName": "Giambologna",
+    "birthPlace": "Douai",
+    "presentingDate": 1600,
+    "medium": "bust",
+    "filename": "BK-15116.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-115",
+    "title": "Self Portrait",
+    "artistName": "Joost van Geel",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1670,
+    "medium": "painting",
+    "filename": "SK-A-115.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1041",
+    "title": "Self Portrait",
+    "artistName": "Pierre Van Hanselaere",
+    "birthPlace": "Gent",
+    "presentingDate": 1824,
+    "medium": "painting",
+    "filename": "SK-A-1041.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1746",
+    "title": "Self-Portrait",
+    "artistName": "Carel de Moor (II)",
+    "birthPlace": "Leiden",
+    "presentingDate": 1675,
+    "medium": "painting",
+    "filename": "SK-A-1746.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1780",
+    "title": "Self-Portrait",
+    "artistName": "Wybrand de Geest (I)",
+    "birthPlace": "Leeuwarden",
+    "presentingDate": 1629,
+    "medium": "painting",
+    "filename": "SK-A-1780.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-3262",
+    "title": "Self-portrait",
+    "artistName": "Vincent van Gogh",
+    "birthPlace": "Groot Zundert",
+    "presentingDate": 1887,
+    "medium": "painting",
+    "filename": "SK-A-3262.JPEG"
+  },
+  {
+    "objectNumber": "RP-F-1995-206-6",
+    "title": "Self portrait in the Study",
+    "artistName": "Jacob Olie jr.",
+    "birthPlace": null,
+    "presentingDate": 1909,
+    "medium": "photograph",
+    "filename": "RP-F-1995-206-6.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1957-459-A",
+    "title": "Self-portrait, drawing on an etching-plate",
+    "artistName": "Pierre François Basan",
+    "birthPlace": "Parijs",
+    "presentingDate": 1733,
+    "medium": "print",
+    "filename": "RP-P-1957-459-A.JPEG"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "objectNumber": "SK-A-2186",
+    "title": "Self-Portrait",
+    "artistName": "Ludolf Bakhuysen",
+    "birthPlace": "Emden",
+    "presentingDate": 1690,
+    "medium": "painting",
+    "filename": "SK-A-2186.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1041",
+    "title": "Self Portrait",
+    "artistName": "Pierre Van Hanselaere",
+    "birthPlace": "Gent",
+    "presentingDate": 1824,
+    "medium": "painting",
+    "filename": "SK-A-1041.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1047",
+    "title": "Self-portrait",
+    "artistName": "Charles Howard Hodges",
+    "birthPlace": "Portsmouth",
+    "presentingDate": 1825,
+    "medium": "painting",
+    "filename": "SK-A-1047.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1746",
+    "title": "Self-Portrait",
+    "artistName": "Carel de Moor (II)",
+    "birthPlace": "Leiden",
+    "presentingDate": 1675,
+    "medium": "painting",
+    "filename": "SK-A-1746.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1933",
+    "title": "Self-Portrait",
+    "artistName": "Dionys van Nijmegen",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1750,
+    "medium": "painting",
+    "filename": "SK-A-1933.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-12.289",
+    "title": "Self-portrait etching at a window",
+    "artistName": "anonymous",
+    "birthPlace": null,
+    "presentingDate": 1648,
+    "medium": "print",
+    "filename": "RP-P-OB-12.289.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2818",
+    "title": "Self-Portrait",
+    "artistName": "Johann Georg Schwartze",
+    "birthPlace": "Amsterdam",
+    "presentingDate": 1869,
+    "medium": "painting",
+    "filename": "SK-A-2818.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1961-1183",
+    "title": "Self-portrait with cap pulled forward",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1630,
+    "medium": "print",
+    "filename": "RP-P-1961-1183.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-715",
+    "title": "Self-portrait bare-headed: bust",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1629,
+    "medium": "print",
+    "filename": "RP-P-OB-715.JPEG"
+  }
+]

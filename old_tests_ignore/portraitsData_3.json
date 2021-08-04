@@ -1,0 +1,20 @@
+[
+  {
+    "objectNumber": "SK-A-115",
+    "title": "Self Portrait",
+    "artistName": "Joost van Geel",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1670,
+    "medium": "painting",
+    "filename": "SK-A-115.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2157",
+    "title": "Self-Portrait",
+    "artistName": "Abraham de Vries",
+    "birthPlace": "Den Haag",
+    "presentingDate": 1621,
+    "medium": "painting",
+    "filename": "SK-A-2157.JPEG"
+  }
+]

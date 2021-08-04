@@ -1,0 +1,38 @@
+[
+  {
+    "objectNumber": "SK-A-190",
+    "title": "Self-portrait",
+    "artistName": "Karel du Jardin",
+    "birthPlace": "Amsterdam",
+    "presentingDate": 1662,
+    "medium": "painting",
+    "filename": "SK-A-190.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1962-9",
+    "title": "Self-portrait, Etching at a Window",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1648,
+    "medium": "print",
+    "filename": "RP-P-1962-9.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-4691",
+    "title": "Self-portrait",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1628,
+    "medium": "painting",
+    "filename": "SK-A-4691.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-721",
+    "title": "Self-portrait scowling",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1631,
+    "medium": "print",
+    "filename": "RP-P-OB-721.JPEG"
+  }
+]

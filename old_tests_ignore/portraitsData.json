@@ -1,0 +1,371 @@
+[
+  {
+    "objectNumber": "SK-A-3897",
+    "title": "Self-Portrait",
+    "artistName": "Aert Schouman",
+    "birthPlace": "Dordrecht",
+    "presentingDate": 1787,
+    "medium": "painting",
+    "filename": "SK-A-3897.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-181",
+    "title": "Self Portrait?",
+    "artistName": "Pieter de Hooch",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1648,
+    "medium": "painting",
+    "filename": "SK-A-181.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2666",
+    "title": "Self-Portrait",
+    "artistName": "Caspar Netscher",
+    "birthPlace": "Heidelberg",
+    "presentingDate": 1660,
+    "medium": "painting",
+    "filename": "SK-A-2666.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1957-263",
+    "title": "Self-portrait with Saskia",
+    "artistName": "Claude Henri Watelet",
+    "birthPlace": "Parijs",
+    "presentingDate": 1758,
+    "medium": "print",
+    "filename": "RP-P-1957-263.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-3262",
+    "title": "Self-portrait",
+    "artistName": "Vincent van Gogh",
+    "birthPlace": "Groot Zundert",
+    "presentingDate": 1887,
+    "medium": "painting",
+    "filename": "SK-A-3262.JPEG"
+  },
+  {
+    "objectNumber": "BK-15117",
+    "title": "Self-portrait",
+    "artistName": "Giambologna",
+    "birthPlace": "Douai",
+    "presentingDate": 1600,
+    "medium": "bust",
+    "filename": "BK-15117.JPEG"
+  },
+  {
+    "objectNumber": "BK-2000-17",
+    "title": "Self-portrait",
+    "artistName": "Johan Gregor van der Schardt",
+    "birthPlace": "Nijmegen",
+    "presentingDate": 1573,
+    "medium": "bust",
+    "filename": "BK-2000-17.JPEG"
+  },
+  {
+    "objectNumber": "RP-F-2005-107-374",
+    "title": "Self-Portrait",
+    "artistName": "Gerard Fieret",
+    "birthPlace": "Den Haag",
+    "presentingDate": 1965,
+    "medium": "photograph",
+    "filename": "RP-F-2005-107-374.JPEG"
+  },
+  {
+    "objectNumber": "BI-1887-1463-12",
+    "title": "Self-portrait",
+    "artistName": "Gesina ter Borch",
+    "birthPlace": "Zwolle",
+    "presentingDate": 1661,
+    "medium": "drawing",
+    "filename": "BI-1887-1463-12.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2186",
+    "title": "Self-Portrait",
+    "artistName": "Ludolf Bakhuysen",
+    "birthPlace": "Emden",
+    "presentingDate": 1690,
+    "medium": "painting",
+    "filename": "SK-A-2186.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1291",
+    "title": "Self Portrait",
+    "artistName": "Jan van Haensbergen",
+    "birthPlace": "Gorinchem",
+    "presentingDate": 1660,
+    "medium": "painting",
+    "filename": "SK-A-1291.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1907-524",
+    "title": "Self-portrait, frowing: bust",
+    "artistName": "Johann Georg Hertel (II)",
+    "birthPlace": null,
+    "presentingDate": 1711,
+    "medium": "print",
+    "filename": "RP-P-1907-524.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-42",
+    "title": "Self Portrait",
+    "artistName": "Ferdinand Bol",
+    "birthPlace": "Dordrecht",
+    "presentingDate": 1669,
+    "medium": "painting",
+    "filename": "SK-A-42.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-714",
+    "title": "Self-portrait Bare-headed",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1629,
+    "medium": "print",
+    "filename": "RP-P-OB-714.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-12.287",
+    "title": "Self-portrait with Saskia and the artist's mother seated at a table, looking right: three quarter length",
+    "artistName": "Ignace-Joseph de Claussin",
+    "birthPlace": "Lunéville",
+    "presentingDate": 1805,
+    "medium": "print",
+    "filename": "RP-P-OB-12.287.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-4050",
+    "title": "Self-portrait as the Apostle Paul",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1661,
+    "medium": "painting",
+    "filename": "SK-A-4050.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2666",
+    "title": "Self-Portrait",
+    "artistName": "Caspar Netscher",
+    "birthPlace": "Heidelberg",
+    "presentingDate": 1660,
+    "medium": "painting",
+    "filename": "SK-A-2666.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-3262",
+    "title": "Self-portrait",
+    "artistName": "Vincent van Gogh",
+    "birthPlace": "Groot Zundert",
+    "presentingDate": 1887,
+    "medium": "painting",
+    "filename": "SK-A-3262.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-115",
+    "title": "Self Portrait",
+    "artistName": "Joost van Geel",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1670,
+    "medium": "painting",
+    "filename": "SK-A-115.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2157",
+    "title": "Self-Portrait",
+    "artistName": "Abraham de Vries",
+    "birthPlace": "Den Haag",
+    "presentingDate": 1621,
+    "medium": "painting",
+    "filename": "SK-A-2157.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2186",
+    "title": "Self-Portrait",
+    "artistName": "Ludolf Bakhuysen",
+    "birthPlace": "Emden",
+    "presentingDate": 1690,
+    "medium": "painting",
+    "filename": "SK-A-2186.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1041",
+    "title": "Self Portrait",
+    "artistName": "Pierre Van Hanselaere",
+    "birthPlace": "Gent",
+    "presentingDate": 1824,
+    "medium": "painting",
+    "filename": "SK-A-1041.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1047",
+    "title": "Self-portrait",
+    "artistName": "Charles Howard Hodges",
+    "birthPlace": "Portsmouth",
+    "presentingDate": 1825,
+    "medium": "painting",
+    "filename": "SK-A-1047.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1746",
+    "title": "Self-Portrait",
+    "artistName": "Carel de Moor (II)",
+    "birthPlace": "Leiden",
+    "presentingDate": 1675,
+    "medium": "painting",
+    "filename": "SK-A-1746.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1933",
+    "title": "Self-Portrait",
+    "artistName": "Dionys van Nijmegen",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1750,
+    "medium": "painting",
+    "filename": "SK-A-1933.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-12.289",
+    "title": "Self-portrait etching at a window",
+    "artistName": "anonymous",
+    "birthPlace": null,
+    "presentingDate": 1648,
+    "medium": "print",
+    "filename": "RP-P-OB-12.289.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-2818",
+    "title": "Self-Portrait",
+    "artistName": "Johann Georg Schwartze",
+    "birthPlace": "Amsterdam",
+    "presentingDate": 1869,
+    "medium": "painting",
+    "filename": "SK-A-2818.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1961-1183",
+    "title": "Self-portrait with cap pulled forward",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1630,
+    "medium": "print",
+    "filename": "RP-P-1961-1183.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-715",
+    "title": "Self-portrait bare-headed: bust",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1629,
+    "medium": "print",
+    "filename": "RP-P-OB-715.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-190",
+    "title": "Self-portrait",
+    "artistName": "Karel du Jardin",
+    "birthPlace": "Amsterdam",
+    "presentingDate": 1662,
+    "medium": "painting",
+    "filename": "SK-A-190.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1962-9",
+    "title": "Self-portrait, Etching at a Window",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1648,
+    "medium": "print",
+    "filename": "RP-P-1962-9.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-4691",
+    "title": "Self-portrait",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1628,
+    "medium": "painting",
+    "filename": "SK-A-4691.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-OB-721",
+    "title": "Self-portrait scowling",
+    "artistName": "Rembrandt van Rijn",
+    "birthPlace": "Leiden",
+    "presentingDate": 1631,
+    "medium": "print",
+    "filename": "RP-P-OB-721.JPEG"
+  },
+  {
+    "objectNumber": "BK-15116",
+    "title": "Self-portrait",
+    "artistName": "Giambologna",
+    "birthPlace": "Douai",
+    "presentingDate": 1600,
+    "medium": "bust",
+    "filename": "BK-15116.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-115",
+    "title": "Self Portrait",
+    "artistName": "Joost van Geel",
+    "birthPlace": "Rotterdam",
+    "presentingDate": 1670,
+    "medium": "painting",
+    "filename": "SK-A-115.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1041",
+    "title": "Self Portrait",
+    "artistName": "Pierre Van Hanselaere",
+    "birthPlace": "Gent",
+    "presentingDate": 1824,
+    "medium": "painting",
+    "filename": "SK-A-1041.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1746",
+    "title": "Self-Portrait",
+    "artistName": "Carel de Moor (II)",
+    "birthPlace": "Leiden",
+    "presentingDate": 1675,
+    "medium": "painting",
+    "filename": "SK-A-1746.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-1780",
+    "title": "Self-Portrait",
+    "artistName": "Wybrand de Geest (I)",
+    "birthPlace": "Leeuwarden",
+    "presentingDate": 1629,
+    "medium": "painting",
+    "filename": "SK-A-1780.JPEG"
+  },
+  {
+    "objectNumber": "SK-A-3262",
+    "title": "Self-portrait",
+    "artistName": "Vincent van Gogh",
+    "birthPlace": "Groot Zundert",
+    "presentingDate": 1887,
+    "medium": "painting",
+    "filename": "SK-A-3262.JPEG"
+  },
+  {
+    "objectNumber": "RP-F-1995-206-6",
+    "title": "Self portrait in the Study",
+    "artistName": "Jacob Olie jr.",
+    "birthPlace": null,
+    "presentingDate": 1909,
+    "medium": "photograph",
+    "filename": "RP-F-1995-206-6.JPEG"
+  },
+  {
+    "objectNumber": "RP-P-1957-459-A",
+    "title": "Self-portrait, drawing on an etching-plate",
+    "artistName": "Pierre François Basan",
+    "birthPlace": "Parijs",
+    "presentingDate": 1733,
+    "medium": "print",
+    "filename": "RP-P-1957-459-A.JPEG"
+  }
+]

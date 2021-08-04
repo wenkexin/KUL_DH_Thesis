@@ -1,0 +1,47 @@
+[
+  {
+    "objectNumber": "SK-A-3262",
+    "title": "Self-portrait",
+    "artistName": "Vincent van Gogh",
+    "birthPlace": "Groot Zundert",
+    "presentingDate": 1887,
+    "medium": "painting",
+    "filename": "SK-A-3262.JPEG"
+  },
+  {
+    "objectNumber": "BK-15117",
+    "title": "Self-portrait",
+    "artistName": "Giambologna",
+    "birthPlace": "Douai",
+    "presentingDate": 1600,
+    "medium": "bust",
+    "filename": "BK-15117.JPEG"
+  },
+  {
+    "objectNumber": "BK-2000-17",
+    "title": "Self-portrait",
+    "artistName": "Johan Gregor van der Schardt",
+    "birthPlace": "Nijmegen",
+    "presentingDate": 1573,
+    "medium": "bust",
+    "filename": "BK-2000-17.JPEG"
+  },
+  {
+    "objectNumber": "RP-F-2005-107-374",
+    "title": "Self-Portrait",
+    "artistName": "Gerard Fieret",
+    "birthPlace": "Den Haag",
+    "presentingDate": 1965,
+    "medium": "photograph",
+    "filename": "RP-F-2005-107-374.JPEG"
+  },
+  {
+    "objectNumber": "BI-1887-1463-12",
+    "title": "Self-portrait",
+    "artistName": "Gesina ter Borch",
+    "birthPlace": "Zwolle",
+    "presentingDate": 1661,
+    "medium": "drawing",
+    "filename": "BI-1887-1463-12.JPEG"
+  }
+]
