@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equix="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Art of Reflection</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+
+    <script src="libraries/noframework.waypoints.min.js"></script>
+    <script src="https://unpkg.com/enter-view"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script type="text/javascript" src="js/timeline.js"></script>
+
+    <script>
+        // set the dimensions and margins of the graph
+        var H = window.innerHeight;
+        var W = window.innerWidth;
+        var margin = {top: 80, right: 50, bottom: 30, left: 65};
+        var width = window.innerWidth - margin.left - margin.right;
+        var height = window.innerHeight - margin.top - margin.bottom;
+
+        const r = 10;
+        const rando = v => Math.min(v - 1.5 * r, Math.max(1.5 * r, Math.random() * v));
+    </script>
+
+</head>
+
+<!--the order number for <nav> tags might be a bit odd, because i re-ordered these sections several times-->
+<body style="background-color: snow;">
+
+<main>
+<!--    <div id="graphic">-->
+
+
+    <!--0. Intro Section: Cover-page -->
+    <div id="intro">
+        <!-- 0.1 Intro Text -->
+        <h1>The Art<br/><em>of</em> Reflection</h1>
+            <h4 style="color: darkseagreen">Explore the Time-Tasted Art Form - Self-Portrait</h4>
+<!--            <h3 style="color: darksalmon; text-align: center">Visualisation of self-portraits from The Metropolitan Museum of Art, Harvard Art Museum and Cleveland Museum of Art. </h3>-->
+            <p style="max-width: 680px;"> Instead of simply reflect artists themselves from the mirror, self-portraits, for artists, belong to part of their language. Artists can express their perspectives from the self-portraits, from simply “This is how I look” to “This is what I believe”.</p>
+
+        <!--0.2 Scroller Animation-->
+        <div class="scroll-downs" style="z-index: 2;">
+            <div class="mousey">
+                <div class="scroller">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--0.3. Portraits Orientations Section: Four pages including left,right,midline,other -->
+        <div id="portraitOrientation">
+            <h4>Posing Orientation</h4>
+            <p style="max-width: 800px; padding-left: 360px;text-align: center">Choose one of the orientations to find out the self-portraits in your chosen orientation.<br/>
+            Which posing orientation do artists prefer? Why? Click the button below to learn more!</p>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="images/img_1.png" alt="orientation interpretation" style="width: 900px">
+                </div>
+            </div>
+            <div class="btn-group">
+                <button id="btn">Learn More</button>
+            </div>
+            <nav style="padding-left: 360px;text-align: center">
+                    <a href="#page-17"><span>#Left</span></a>
+                    <a href="#page-18"><span>#Right</span></a>
+                    <a href="#page-19"><span>#Midline</span></a>
+                    <a href="#page-20"><span>#Other</span></a>
+            </nav>
+<!--            <hr class = "whitespace" style = "height:10vh"/>-->
+            <scroll-container>
+                <scroll-page id="page-17"><div id="left"></div></scroll-page>
+                <scroll-page id="page-18"><div id="right"></div></scroll-page>
+                <scroll-page id="page-19"><div id=midline></div></scroll-page>
+                <scroll-page id="page-20"><div id="other"></div></scroll-page>
+            </scroll-container>
+        </div>
+
+
+    <!-- 1. Timeline Section -->
+    <div id='scrolly4'>
+        <!-- 1.1 Text Area -->
+        <div id='content4'>
+            <div id="step11" data-step='11'>
+                <p>
+                    <em2>The History</em2>
+                </p>
+                <p>Even though more than 8000 years ago, humans have polished obsidian into the first simple mirrors,
+                    and a few millennia later, humans in Mesopotamia and Egypt have developed copper mirrors, self-portraits did not appear as an independent genre until 1484,
+                    when the German artist Albrecht Dürer sketched himself at the age of thirteen in silver-point.</p>
+                <p>Until the Early Renaissance, when affordable, fine mirrors were widely available,
+                    since then, self-portraits were commonly used as a form of self-expression by artists.</p>
+<!--                <p>The earliest self-portrait in the database dating back to the 16th century.-->
+<!--                    We can see that most of the self-portraits were created from the Early Renaissance,-->
+<!--                    it was from that time, Self-Portrait became an art-form.</p>-->
+                <p style="font-size: smaller; color:darksalmon">Hover over each dot to see the details.</p>
+            </div>
+            <div id="step12" data-step="12">
+                <p>
+                    <em2>The timeline</em2>
+                </p>
+                <p>The earliest self-portrait in the database dating back to the 16th century. However, due to the copyright issue
+                    which stipulated that only 70 years after the artist's death can their works meet CCO requirement, there are
+                    only very few modern and contemporary artworks in this collection.</p>
+                <p>Ever since the first wave in self-portrait, artists have experimented with painting themselves.
+                    From the brushes, engravers, to cameras, and other emerging technologies later,
+                    artists have never stopped exploring new ways to create innovative representations of themselves.</p>
+                <p style="font-size: smaller; color:darksalmon">As you hover over the dot on the timeline,
+                    you might notice that some artists create portraits of themselves on a regular basis,
+                    can we see the process of aging from their self-portraits? Let's take the most prolific artists in creating self-portrait - Rembrandt van Rijn as an example.</p>
+<!--                <p style="font-size: smaller; color:darksalmon"></p>-->
+            </div>
+        </div>
+        <!-- 1.2 sticky timeline area-->
+        <div id='timeline'>
+            <!--                <h2>Timeline</h2>-->
+            <div id='timelineChart'><h2>Timeline</h2></div>
+        </div>
+    </div>
+
+    <!--2. Ageing Display - Rembrandt-->
+<!--            <div id="aging">-->
+                <h4>Individual Exhibition of Rembrandt van Rijn</h4>
+                <p style="max-width: 800px; padding-left: 360px;">Among all the artists, Rembrandt van Rijn (1606-1669) is the one who has been the most prolific in creating self-portraits.
+                    From the age of 22 and continuing until a few months before his death, Rembrandt spent more than 40 years created more than 80 self-portraits,
+                    resulting in a visual autobiography that depicts his undiminished creativity as he grew older.</p>
+                <p style="max-width: 800px; padding-left: 360px;">There are in total 19 self-portraits created by him in our collection.</p>
+                <p style="font-size: smaller; color:darksalmon; max-width: 800px; padding-left: 360px;">Hover over each self-portrait to find out the age of Rembrandt when he created it!</p>
+<!--                <hr class = "whitespace" style = "height:10vh"/>-->
+                        <div id="rembrandt"></div>
+<!--            </div>-->
+
+            <hr class = "whitespace" style = "height:50vh"/>
+
+    
+    <!--3. Scrollable Sections-->
+    <div id='scrolly'>
+            <!-- 3.1 Text Area -->
+            <div id='content'>
+                <div id="step1" data-step='1'>
+                    <p>
+                        <em2>299 Self-portraits</em2>
+                    </p>
+                    <p>There are 299 identified and non-repetitive “self-portrait”s retrieved from these three museums (exclude those with restricted access), in which
+                        98 self-portraits are retrieved from the Metropolitan Museum of Art, and 132 from Harvard Art Museum, and 69 from Cleveland Musuem of Art. </p>
+                </div>
+                <div id="step2" data-step='2'>
+                    <p>
+                        <em1>12 / </em1>
+                        <em2>299</em2>
+                    </p>
+                    <p>Among the 299 self-portraits, only 12 were created by female artists, the figure in the dataset can reflect the fact to some degree,
+                        that in the art history, male artists take the dominant role, and that female artists are rare.
+                        It is undeniable that male artists predominate the field of self-portraits creation, but as dominant as they have been in art-related professions,
+                        this has obscured the fact that female artists have always existed and struggled with how to represent themselves in artworks, just as male artists have.</p>
+
+                    <ul>
+                        <li><svg id="legend6" width="20px" height="20px"></svg>Created by <em>female artist</em></li>
+                        <li><svg id="legend7" width="20px" height="20px"></svg>Created by <em>male artist</em></li>
+                    </ul>
+                </div>
+                <div id="step3" data-step='3' style="padding-bottom: 200px;">
+                    <p>
+                        <em1>Hidden History</em1>
+                    </p>
+                    <p>Before the 1870s, until art schools began accepting female students, prospective female artists were denied by the training that male artists took for granted.
+                        If a woman wants to start a business as an artist, she needs a support system, and often that support system is the family,
+                        and it's up to her husband to decide whether she can continue her career after marriage. </p>
+                    <p>Despite such imbalanced level of education and support, a few female artists still made to be established in this field.
+                        However, were their skills, as rumor has it, inferior to men?</p>
+                    <p>Let's take a closer look at these self-portraits.</p>
+                </div>
+            </div>
+            <!--3.1 Sticky Graphic Area-->
+            <figure id="graph">
+                <figure id="dataviz2"></figure>
+            </figure>
+    </div>
+
+        <!--3.1.1 Detailed Female Self-portraits-->
+        <div id="more">
+            <h4>Take a closer look at the self-portraits created by female artist</h4>
+            <p style="text-align: center; padding-left: 440px">
+                Find out the stories behind the self-portraits created by female artist. </p>
+                <p style="text-align: center; padding-left: 440px; font-size: smaller; color:darksalmon">Click the button of each of the artist to explore!</p>
+            <nav style="padding-left: 80px; ">
+<!--                padding-top: 50px-->
+                <h3 style="text-align: left">artist</h3>
+
+                <a href="#page-1"><h3 style="text-align: left">Rose Adélaïde Ducreux</h3></a>
+                <a href="#page-2"><h3 style="text-align: left">Adélaïde Labille-Guiard</h3></a>
+                <a href="#page-3"><h3 style="text-align: left">Gillian Wearing</h3></a>
+                <a href="#page-4"><h3 style="text-align: left">Paula Modersohn-Becker</h3></a>
+                <a href="#page-5"><h3 style="text-align: left">Nan Goldin</h3></a>
+                <a href="#page-6"><h3 style="text-align: left">Sandra Stark</h3></a>
+                <a href="#page-7"><h3 style="text-align: left">Cecil Buller</h3></a>
+                <a href="#page-8"><h3 style="text-align: left">Peggy Bacon</h3></a>
+                <a href="#page-9"><h3 style="text-align: left">Berthe Morisot</h3></a>
+                <a href="#page-10"><h3 style="text-align: left">Käthe Kollwitz (in 1912)</h3></a>
+                <a href="#page-11"><h3 style="text-align: left">Käthe Kollwitz (in 1915)</h3></a>
+                <a href="#page-12"><h3 style="text-align: left">Käthe Kollwitz (in 1934)</h3></a>
+            </nav>
+
+            <scroll-container style="height: 600px">
+                <scroll-page id="page-1"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  <i>Self-portrait with a Harp at the Salon</i> was created by Lady Rose Adélaïde Ducreux in 1785. Rose was born in Paris in 1761, the daughter of the painter Joseph Ducreux, a successful portraitist at the court of Louis VXI of France. Coming from a very wealthy family, she received a well-rounded education, and was accomplished as a composer and performer as well as a portraitist. Rose relocated to the colony of Saint-Domingue after marriage, where she sadly died of yellow fever at the young age of 41, in 1802.
+                    In this portrait, rose stands, not playing the harp, but seemingly interrupted from the middle of tuning, and the song laying on the table, “Tender Love”, suggests she also sings as she plays.</p>
+                    <img src= "images/imageFemale/DP164843.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-2"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  The ambitious group portrait <i>Self-Portrait with Two Pupils, Marie-Gabrielle Capet and Marie Marguerite Carreaux de Rosemond</i>, a work today considered her masterpiece. It remained in her collection her entire life. With its large size and virtuoso treatment of silk, lace, and other luxurious materials, the work served as publicity for the artist Adélaïde Labille- Guiard’s talent as a portrait painter. It also offered a demonstration of female friendship, and of Labille-Guiard’s commitment to training other women to follow in her footsteps.
+                    Adélaïde Labille-Guiard was born in 1749 in Paris, she began her artistic training with a neighbour who was a miniaturist when she was 14, little is known about her training due to the practices of the 18th century which dictated masters should not take on female pupils. She died in the age of 54.</p>
+                    <img src= "images/imageFemale/DP320103.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-3"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  <i>Self-portrait at Twenty-Seven Years Old</i> is one of the series self- portraits of Gillian Wearing, she was born in 1963 in Birmingham, England. Wearing is an English conceptual artist, and is known for her method of documentation of everyday life through photography and video, concerning individual identity within the private and the public spaces, where Wearing blurs the line between reality and fiction.</p>
+                    <img src= "images/imageFemale/348586.jpg" style="margin-left: 500px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-4"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  <i>The Seated Nude (Self-portrait)</i> was created by Paula Modersohn-Becker, who was a German painter and one of the most important representatives of early expressionism. Her career was cut short when she died from postpartum embolism aged of 31. She is recognised as the first known female painter to paint nude self- portraits. She was an important member of the early 20th century modernism movement.
+                    Although Paula Modersohn-Becker died in 1907, just as the Expressionist groups in Dresden and Munich were forming, the themes of her work prefigure the movement. This likely self-portrait exhibits her desire to convey not the idealized appearance of the female body but rather its fundamental essence, stripped of all the world’s trappings. She distilled the human body into flattened forms—achieved by erasing and blending the charcoal—and abbreviated the delineation of the feet, hands, and face. The sitter’s piercing stare invites the viewer to move beyond the body as flesh and blood toward her emotional or spiritual state. She had a very brief career life, yet prolific.</p>
+                    <img src= "images/imageFemale/1973.35_web.jpg" style="margin-left: 410px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-5"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  The self-portrait depicted the American photographer Nancy Goldin (born in 1953), whose work often explores LGBT bodies, moments of intimacy, the HIV crisis, and the opioid epidemic. Goldin's first solo show, held in Boston in 1973, was based on her photographic journeys among the city's gay and transgender communities. While living in downtown Boston at age 18, Goldin "fell in with the drag queens," living with them and photographing them. Unlike some photographers who were interested in psychoanalyzing or exposing the queens, Goldin admired and respected their sexuality. Goldin said, "My desire was to show them as a third gender, as another sexual option, a gender option. And to show them with a lot of
+                    respect and love, to kind of glorify them because I really admire people who can recreate themselves and manifest their fantasies publicly. I think it's brave".</p>
+                    <img src= "images/imageFemale/71397.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-6"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  Sandra Stark used a very unusual way to show herself, the title of the self-portrait is <i>The Balancing Art-Self-Portrait</i>. She is a senior faculty member in photography at The School of the Museum of Fine Arts, Boston. She is also a professional fiddle player, playing in bands since 1971.</p>
+                    <img src= "images/imageFemale/94699.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-7"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  Cecil Buller (1886-1973) was a Canadian artist. The self-portrait is one of the series of wood engravings for her book <i>Song of Solomon</i>.</p>
+                    <img src= "images/imageFemale/212123.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-8"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  This self-portrait was created by Peggy Bacon in 1925. In the picture, she captured the scene that she was creating in front of her easel, and her cat was dozing at her feet. Peggy Bacon was an American artist, best known for her satirical caricatures. Born in 1895, Bacon was a very prolific artist, and at the age of 24, she wrote and illustrated her first book, The True Philosopher and Other Cat Tales and she went on to illustrate over 60 books, 19 of which she also wrote. Her popular drawings appeared in magazines such as The New Yorker, New Republic, Fortune and Vanity Fair, and she exhibited in galleries and museums frequently. Bacon’s eyesight began failing in 1970s, and she died at the age 91.</p>
+                    <img src= "images/imageFemale/258160.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-9"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  <i>Self-portrait with Daughter Julie</i> is a work by Berthe Morisot, who was considered as a founding member of Impressionism, whose marquee names counted themselves as both admirers and friends. But, unlike her peers, whose more experimental inclinations were tempered by a need to please patrons, her canvases bear vivacious brushstrokes and unusual figuration which nearly leapfrogged Impressionism to abstraction. She featured prominently in every annual Impressionist exhibition, except one that she missed because she was recovering after the birth of her daughter. These shows were generally met with acclaim. Critic Paul Mantz wrote in his review of the third Impressionist exhibition in 1877 that “there is only one true Impressionist in the whole
+                    revolutionary group—and that is Mlle Berthe Morisot.” Yet Morisot’s gender also played a role in how she was perceived. Writers in her day used terms like “flirtatious” and “charming” to describe her work; neither were labels given to the paintings of Claude Monet, Pierre-Auguste Renoir, and others.</p>
+                    <img src= "images/imageFemale/272313.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-10"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  This self-portrait was created when Kollwitz was 45 years old. Käthe Kollwitz was born in 1867, and was a German artist who worked with painting, printmaking (including etching, lithography and woodcuts) and sculpture. Her most famous art cycles, including The Weavers and The Peasant War, depict the effects of poverty, hunger and war on the working class. Despite the realism of her early works, her art is now more closely associated with Expressionism. Kollwitz was the first woman to not only be elected to the Prussian Academy of Arts but to also receive honorary professor status. Kollwitz made a total of 275 prints, in etching, woodcut and lithography. Virtually the only portraits she made during her life were images of herself, of which there are at least fifty. These self-portraits constitute a lifelong honest self-appraisal; "they are psychological milestones"</p>
+                    <img src= "images/imageFemale/1932.321_web.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-11"><p style="display: block; float: right; width:350px;  height: 500px; text-align: left"><br><br><br>  This self-portrait was created when Kollwitz was 48 years old.</p>
+                    <img src= "images/imageFemale/1941.493_web.jpg" style="margin-left: 390px; height: 500px; margin-top: -50px"></scroll-page>
+                <scroll-page id="page-12"><p style="display: block; float: right; width:350px; height: 500px; text-align: left"><br><br><br>  This self-portrait was created when Kollwitz was 67 years old.</p>
+                    <img src= "images/imageFemale/1936.30_web.jpg" style="margin-left: 390px; height: 450px; margin-top: -50px"></scroll-page>
+            </scroll-container>
+        </div>
+
+    <hr class = "whitespace" style = "height:50vh"/>
+
+
+<!--Medium Area-->
+    <div id='scrolly2'>
+
+        <!-- 3.2 Text Area -->
+        <div id='content2'>
+            <div id="step4" data-step='4'>
+                <p><em2>Mediums</em2></p>
+                <p> As we can see, these self-portraits are presented through different mediums, some are oil paintings, some are printings, some are photographs.
+                    The figure on the right hand side offers a first impression on the mediums distribution.
+                </p>
+                <h3>Guess which are top five popular mediums?</h3>
+
+            </div>
+            <div id="step5" data-step='5'>
+                <ul>
+                    <li><h5>Top Five Mediums</h5></li>
+                    <li><svg id="legend1" width="20px" height="20px"></svg>Prints(138)-----<em>46.15%</em></li>
+                    <li><svg id="legend2" width="20px" height="20px"></svg>Paintings(63)-----<em>21.07%</em></li>
+                    <li><svg id="legend5" width="20px" height="20px"></svg>Drawing(61)-----<em>20.40%</em></li>
+                    <li><svg id="legend3" width="20px" height="20px"></svg>Miniature(13)-----<em>4.34%</em></li>
+                    <li><svg id="legend4" width="20px" height="20px"></svg>Photograph(10)-----<em>3.34%</em></li>
+                </ul>
+            </div>
+            <div id="step6" data-step="6">
+                <h5 style="padding-left: 50px;">The Advent of Camera</h5>
+                <p>Camera was invented in the early 19 century, and photography as a medium distinguishes from other mediums. The emergence of photography even had an impact on other mediums that already existed at that time,
+                    because even in paintings that were close to objective subjects, they were not as realistic as photography.</p>
+                <p>The first self-portrait photography dates back to 1839, taken by Robert Cornelius shortly after the invention of photography.
+                    Later just as self-portrait has become a symbol of painters throughout art history, photographers have continued this great tradition. </p>
+                <p style="font-size: smaller; color:darksalmon; max-width: 800px;">Now, you might be thinking, hmm, isn't self-portrait photographic equals to selfie?</p>
+            </div>
+            <div id="step7" data-step="7">
+                <h5 style="padding-left: 50px;">Selfie vs Self-portrait</h5>
+                <p>In today’s world, more than 93 million selfies are taken each single day, without having any knowledge about photography, the camera lens can enable anyone to produce a selfie.
+                    But how’s it related to the self-portrait photographic?</p>
+                <p>
+                    The selfie is defined in the Oxford English Dictionary (2013) as a photograph that someone takes of themselves, usually with a smartphone, which could be shared with others online.
+                </p>
+                <p style="font-size: smaller; color:darksalmon; max-width: 800px;">
+                    However, unlike the selfie, which can only be a photograph, a self-portrait can be in any medium, such as print, drawing, painting, or photography.
+                </p>
+                <p>
+                    Selfies limit the creators to the immediate environment and seems to underline the outer like of the creators, while self-portraits emphasise the inner life of the creators.
+                </p>
+                <p style="font-size: smaller; color:darksalmon; max-width: 800px;">
+                    Selfies are easy to repeat and multiply, while self-portraits are not.
+                </p>
+                <p>
+                    While self-portraits are the artistic activity of an elite few, requiring technical and aesthetic skills as well as leisure time and a degree of wealth, the practice of taking selfies are something that many can do (despite the digital divide).
+                </p>
+                <p style="font-size: smaller; color:darksalmon; max-width: 800px;">
+                    Not simply short for “self-portrait”, the term "selfie" has its own unique historical significance.
+                </p>
+            </div>
+            <div id="step8" data-step="8">
+            </div>
+        </div>
+
+
+
+        <!--3.2 Sticky Graphic Area-->
+        <figure id="graph2">
+            <figure id="dataviz3"></figure>
+<!--            <hr class = "whitespace" style = "height:100vh"/>-->
+        </figure>
+    </div>
+
+    <div id="end">
+        <h2>Thank You<br/>for Your Attention!</h2>
+        <h2>Let's keep exploring more art forms!</h2>
+    </div>
+</main>
+
+<script src='https://unpkg.com/d3@5.9.1/dist/d3.min.js'></script>
+<script src='https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js'></script>
+<script src='libraries/stickyfill.min.js'></script>
+<script src='libraries/scrollama.js'></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="libraries/noframework.waypoints.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="js/allPortraits.js"></script>
+<script src="js/portraitsClassification.js"></script>
+<script src="js/aging.js"></script>
+<script src="js/moreInfo.js"></script>
+<script src="js/orientation.js"></script>
+</body>
+</html>
