@@ -134,16 +134,7 @@ h1 > em {
     font-style:normal;
 }
 
-p {
-    text-align: center;
-    max-width: 600px;
-    padding-left: 50px;
-    font-size: 1rem;
-    font-family: 'Roboto Slab',serif;
-    line-height: 1.5rem;
-    /*text-align: left;*/
-    color:#194F39;
-}
+
 
 span{
     text-align: center;
@@ -190,7 +181,7 @@ li > em {
 #intro {
     height: 1000px;
     margin: 2rem auto;
-    text-align: left;
+    text-align: center;
     /*display: -webkit-box;*/
     /*cursor:url('../music/apple.svg'),auto;*/
     /*cursor: cell;*/
@@ -206,10 +197,10 @@ li > em {
 }
 
 #intro p {
-    max-width: 600px;
+
     text-align: center;
     padding-left: 30px;
-    margin-left: 400px;
+    /*margin-left: 400px;*/
     font-size: 1rem;
     font-family: 'Roboto Slab', serif;
     line-height: 1.5rem;
@@ -732,7 +723,7 @@ a > span:hover{
 nav, scroll-container {
     display: block;
     margin: 50px auto;
-    text-align: -moz-left;
+    /*text-align: -moz-left;*/
     width:50%;
 }
 
@@ -795,18 +786,6 @@ img{
     /*width: 50%;*/
 }
 
-#gif{
-    /*display: inline-block;*/
-    /*align-items: center;*/
-    /*jus tify-content: center;*/
-    margin-top:100px;
-    margin-left:-30px;
-    padding-bottom: 60px;
-    padding-top: 60px;
-    position: sticky;
-    top: 0;
-
-}
 
 #image{
     position: sticky;
