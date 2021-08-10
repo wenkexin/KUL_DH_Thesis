@@ -759,6 +759,25 @@ scroll-page {
     font-size: 5em;
 }
 
+#more > scroll-container p{
+    display: block;
+    float: right;
+    margin-left: 100px;
+    width:350px;
+    height: 500px;
+    text-align: left;
+    font-family: 'Roboto Slab',serif;
+    color:#194F39;
+    font-size: 0.9rem;
+}
+
+#more > scroll-container div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33%
+}
+
 #aging > scroll-container {
     display: block;
     justify-content: center;
