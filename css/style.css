@@ -780,9 +780,9 @@ img{
     cursor: pointer;
     /*margin-left: 100px;*/
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 100px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*padding-left: 100px;*/
     /*width: 50%;*/
 }
 
