@@ -27,20 +27,6 @@ d3.json("./data/dataAll.json").then(function(data){
         .key(function(d){ return d.culture;})
         .entries(data);
 
-// var nestedMedium = d3.nest()
-//                     .key(function(d){ return d.medium;})
-//                     .entries(data);
-
-    // for (let i=0; i<data.length; i++) {
-    //     let date = data[i].date;
-    //     yearData.push(date);
-    // }
-    //
-    // for (let i=0; i<data.length; i++) {
-    //     let age = 2019-(data[i].date);
-    //     ageData.push(age);
-    // }
-
     for (let i=0; i<data.length; i++) {
         let culture = data[i].culture;
         countryData.push(culture);
