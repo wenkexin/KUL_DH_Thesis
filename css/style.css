@@ -221,21 +221,6 @@ body{
     padding-left:1em;
 }
 
-#featurePortraits{
-    padding-left:70px;
-    /*position: -webkit-sticky;*/
-    /*position: sticky;*/
-    /*position: fixed;*/
-    /*-webkit-transform: translate3d(0, 0, 0);*/
-    /*-moz-transform: translate3d(0, 0, 0);*/
-    /*-moz-transform: translate(-50%, -50%);*/
-    /*-webkit-transform: translate(-50%, -50%);*/
-    /*transform: translate(-50%, -50%);*/
-
-    /*display: inline-block;*/
-    /*position: -webkit-sticky;*/
-    /*position: relative;*/
-}
 
 #image{
     padding-left:70px;
@@ -443,7 +428,7 @@ body{
     margin-left: 30px;
     background-color: #FFFAFA;
     color: #3b3b3b;
-    margin-bottom: 600px;
+    margin-bottom: 800px;
     display: inline-block;
     /*position: -webkit-sticky;*/
     position: relative;
@@ -647,25 +632,26 @@ p > em2 {
     left: 50%;
     margin-left: 200px;
     /*margin-bottom:200px;*/
-    padding-top: 400px;
-
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-#graph3 svg {
-    position: -webkit-sticky;
-    position: sticky;
-    width: 150%;
-    top: 50%;
-    left: 50%;
-    padding-left: 850px;
     /*padding-top: 400px;*/
+
     -moz-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+
+/*#graph3 svg {*/
+/*    position: -webkit-sticky;*/
+/*    position: sticky;*/
+/*    width: 150%;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    padding-left: 850px;*/
+/*    !*padding-top: 400px;*!*/
+/*    -moz-transform: translate(-50%, -50%);*/
+/*    -webkit-transform: translate(-50%, -50%);*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
 
 .numbertext{
     font-family: 'Anton', sans-serif;
@@ -690,6 +676,18 @@ p > em2 {
     transform: translate(-50%, -50%);
 }
 
+#photography #gif{
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50%;
+    top: 50%;
+    /*left: 50%;*/
+    margin-bottom:200px;
+    /*margin-left: 800px;*/
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 
 a {
     width: 50px;
@@ -825,7 +823,7 @@ img{
     margin-bottom: 120px;
     /*padding-left: 30px;*/
     /* font-variant-caps: all-petite-caps; */
-    color:#194F39;
+    color:darkseagreen;
 }
 
 

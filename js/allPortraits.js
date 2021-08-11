@@ -1,7 +1,7 @@
 var svg3 = d3.select("#dataviz2")
     .append("svg")
     .attr("width", W)
-    .attr("height", 900)
+    .attr("height", 850)
     .append("g")
 
 

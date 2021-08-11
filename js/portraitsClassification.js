@@ -5,7 +5,7 @@ var portraitsClassification = d3.select("#dataviz3")
     // .attr("width", width + margin.left + margin.right)
     // .attr("height", height + margin.top*3 + margin.bottom*3)
     .attr("width", W)
-    .attr("height", 1100)
+    .attr("height", 800)
     .append("g")
 
 
@@ -108,7 +108,7 @@ d3.json("./data/dataAll.json").then(function(data){
             .style("opacity", 1)
             .style("color","white")
             .style("left", (d3.mouse(this)[0]+40) + "px")
-            .style("top", (d3.mouse(this)[0]+300) + "px")//+150 reduce the distance between tooltip and mouse
+            .style("top", (d3.mouse(this)[0]+150) + "px")//+150 reduce the distance between tooltip and mouse
     }
 
 
