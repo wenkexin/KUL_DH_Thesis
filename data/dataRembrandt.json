@@ -29,7 +29,7 @@
     "filename": "279274.jpg",
     "from": "Harvard Art Museum",
     "wall_description": null,
-    "ageing": null
+    "ageing": "his wide, and bushy hair, as well as his smile. In fact, his many etchings catalogue the early evolution of his art, showing the wild, and often bushy hair of his youth, his keen searching eyes, his thick nose, and his sensitive mouth."
   },
   {
     "objectID": 262115,
@@ -144,20 +144,20 @@
     "ageing": null
   },
   {
-    "objectID": 279613,
-    "title": "Self-Portrait (?) with Plumed Cap and Lowered Sabre",
-    "artist": "Rembrandt van Rijn",
-    "gender": "male",
-    "culture": "Dutch",
-    "date": 1634,
-    "primaryImage": "https://nrs.harvard.edu/urn-3:HUAM:INV191646_dynmc",
-    "classification": "Print",
-    "technique": "Etching",
-    "museumURL": "https://www.harvardartmuseums.org/collections/object/279613",
-    "filename": "279613.jpg",
-    "from": "Harvard Art Museum",
-    "wall_description": "A young man with shoulder length dark curly hair, a slight smile with unshaven face with goatee and mustache, looks beyond the viewer. The light enters from the right as it hits his face, accentuating placid eyes, realistically drawn with delicate lines. He wears a small dark cap with a plume that curls to the left, and a dark cloak of thick fabric, decorated at the neck. There is no background, only a suggestion of the man’s shadow and slight etch lines emanating from the oval edge.",
-    "ageing": null
+    "objectID": 279613 ,
+    "title": "Self-Portrait (?) with Plumed Cap and Lowered Sabre" ,
+    "artist": "Rembrandt van Rijn" ,
+    "gender": "male" ,
+    "culture": "Dutch" ,
+    "date": 1634 ,
+    "primaryImage": "https://nrs.harvard.edu/urn-3:HUAM:INV191646_dynmc" ,
+    "classification": "Print" ,
+    "technique": "Etching" ,
+    "museumURL": "https://www.harvardartmuseums.org/collections/object/279613" ,
+    "filename": "279613.jpg" ,
+    "from": "Harvard Art Museum" ,
+    "wall_description": "A young man with shoulder length dark curly hair, a slight smile with unshaven face with goatee and mustache, looks beyond the viewer. The light enters from the right as it hits his face, accentuating placid eyes, realistically drawn with delicate lines. He wears a small dark cap with a plume that curls to the left, and a dark cloak of thick fabric, decorated at the neck. There is no background, only a suggestion of the man’s shadow and slight etch lines emanating from the oval edge." ,
+    "ageing": "his shoulder length dark curly hair, a slight smile with unshaven face with goatee and mustache, looks beyond the viewer. The light enters from the right as it hits his face, accentuating placid eyes, realistically drawn with delicate lines. He wears a small dark cap with a plume that curls to the left, and a dark cloak of thick fabric, decorated at the neck. There is no background, only a suggestion of the man’s shadow and slight etch lines emanating from the oval edge"
   },
   {
     "objectID": 262075,
@@ -221,7 +221,7 @@
     "filename": "278957.jpg",
     "from": "Harvard Art Museum",
     "wall_description": "The man (Rembrandt) is seated on the right, larger and more pronounced in the frame, than his wife (Saskia) who sits across the shallow table on left in three-quarter view, etched with delicate lines. Rembrandt’s arms rest on a sketchbook, a drawing implement in his left hand. He wears a tilted cap, the brim shadows his eyes, nose, and half his face. He has a mustache and wears a white collared shirt over loose jacket. Saskia is in full light, wearing a dress up to her neck. There’s no background, only suggestion of a table and chair where Saskia sits.",
-    "ageing": null
+    "ageing": "him with his wife Saskia, who sits across the shallow table on left in three-quarter view, etched with delicate lines. Rembrandt’s arms rest on a sketchbook, a drawing implement in his left hand. He wears a tilted cap, the brim shadows his eyes, nose, and half his face. He has a mustache and wears a white collared shirt over loose jacket. Saskia is in full light, wearing a dress up to her neck"
   },
   {
     "objectID": 262116,
@@ -301,6 +301,6 @@
     "filename": "DP-16323-001.jpg",
     "from": "Metropolitan Museum of Art",
     "wall_description": null,
-    "ageing": null
+    "ageing": "he wears a heavy, brownish coat over a red waistcoat. His hat, in a rich black, constraits nicely with the warm green background. The shadows in his face are warm and transparent, and his cheek, with a clear texture of the flesh, is made to glow with color. He presents himself, as he must have appeared to his neighbors, with a wrinkled brow and worried expression, for this was a time in his life marked by financial hardship. Still, even though his forehead may be wrinkled with worry, the spark remains in his eye and a sense of pride lurks in the jaunty tilt of his cap and his raised head"
   }
 ]

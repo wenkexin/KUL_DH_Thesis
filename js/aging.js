@@ -41,6 +41,7 @@ d3.json("./data/dataRembrandt.json").then(function(data){
     console.log(yearData);
     console.log(nestedAge);
     console.log(ageData);
+    console.log(ageingData)
 // console.log(mediumData);
 // console.log(nestedClassification);
 // console.log(nestedCountry);
@@ -54,7 +55,7 @@ d3.json("./data/dataRembrandt.json").then(function(data){
 
 
 //tooltip
-    var tooltip = d3.select("#featurePortraits")
+    var tooltip = d3.select("#rembrandt")
         .append("div")
         .attr("class", "tooltip")
         .style("background-color", "#194F39")
@@ -76,7 +77,7 @@ d3.json("./data/dataRembrandt.json").then(function(data){
             .style("color", "white")
             // .attr("xlink:href", function(d) { return d.img;})
             .style("left", (d3.mouse(this)[0]+40) + "px")
-            .style("top", (d3.mouse(this)[1]+150) + "px")//+150 reduce the distance between tooltip and mouse
+            .style("top", (d3.mouse(this)[1]+5200) + "px")//+150 reduce the distance between tooltip and mouse
         d3.select(this)
             .transition()
             .ease(d3.easeElastic)
