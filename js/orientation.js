@@ -1,10 +1,3 @@
-var H = window.innerHeight;
-var W = window.innerWidth;
-var margin = {top: 80, right: 50, bottom: 30, left: 65};
-var width = window.innerWidth - margin.left - margin.right;
-var height = window.innerHeight - margin.top - margin.bottom;
-
-
 
 
 var svgLeft = d3.select("#left")

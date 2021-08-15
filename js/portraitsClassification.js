@@ -2,10 +2,8 @@
 
 var portraitsClassification = d3.select("#dataviz3")
     .append("svg")
-    // .attr("width", width + margin.left + margin.right)
-    // .attr("height", height + margin.top*3 + margin.bottom*3)
     .attr("width", W)
-    .attr("height", 800)
+    .attr("height", 1100)
     .append("g")
 
 
@@ -158,34 +156,6 @@ d3.json("./data/dataAll.json").then(function(data){
 
 
 
-
-
-    // function f7() {
-    //     u.transition()
-    //         .ease(d3.easeLinear)
-    //         .duration(1500)
-    //         .attr('cx', function (data, i) {
-    //             if (data.classification === "Print") {
-    //                 if (i < 18) {
-    //                     return i * 40
-    //                 } else if (i < 36) {
-    //                     return (i - 18) * 40
-    //                 } else if (i < 54) {
-    //                     return (i - 36) * 40
-    //                 }
-    //             }
-    //         })
-    //         .attr('cy', 100)
-    // }
-    // f7();
-
-        // u.exit().remove()
-
-
-
-
-
-
     var legendPrint= d3.select("#legend1")
         .append("circle")
         .attr("r",5)
@@ -216,26 +186,6 @@ d3.json("./data/dataAll.json").then(function(data){
         .attr("cx",10)
         .attr("cy",14)
         .style("fill","#FF5400")
-
-
-
-    // function scroll(n, offset, func1, func2){
-    //     return new Waypoint({
-    //         element: document.getElementById(n),
-    //         handler: function(direction) {
-    //             direction == 'down' ? func1() : func2();
-    //         },
-    //         //start 75% from the top of the div
-    //         offset: offset
-    //     });
-    // };
-    //
-    //
-    // new scroll('step5', '75%', ticked, f7);
-    // // new scroll('step2', '75%', f4, f5);
-    // // f6();
-    // new scroll('step6', '75%', f7, ticked);
-    // // new scroll('step3', '75%', f3, f6);
 
 });
 

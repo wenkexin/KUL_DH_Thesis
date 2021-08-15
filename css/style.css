@@ -428,7 +428,7 @@ body{
     margin-left: 30px;
     background-color: #FFFAFA;
     color: #3b3b3b;
-    margin-bottom: 800px;
+    margin-bottom: 600px;
     display: inline-block;
     /*position: -webkit-sticky;*/
     position: relative;
@@ -450,7 +450,7 @@ body{
     margin: 0 auto 2rem auto;
     background-color: #FFFAFA;
     color: #3b3b3b;
-    margin-bottom: 600px;
+    /*margin-bottom: 600px;*/
     display: inline-block;
     /*position: -webkit-sticky;*/
     position: relative;
@@ -631,8 +631,8 @@ p > em2 {
     top: 50%;
     left: 50%;
     margin-left: 200px;
-    /*margin-bottom:200px;*/
-    /*padding-top: 400px;*/
+    margin-bottom:200px;
+    padding-top: 300px;
 
     -moz-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -809,6 +809,18 @@ img{
     top: 0;
 }
 
+#photographygif{
+    /*display: inline-block;*/
+    /*align-items: center;*/
+    /*jus tify-content: center;*/
+    margin-top:100px;
+    margin-left:-30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    position: sticky;
+    top: 0;
+
+}
 
 
 /*Styles for End Section*/
